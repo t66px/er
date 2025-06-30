@@ -1,0 +1,19 @@
+{
+  "name": "uptimer",
+  "version": "1.0.0",
+  "description": "Monitors and manages URLs with uptime tracking, providing real-time status updates and alerts. Access restricted to authorized users only",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Wick Studio",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1",
+    "enmap": "^5.9.8",
+    "https-proxy-agent": "^7.0.5",
+    "node-fetch": "^2.6.1"
+  }
+}
